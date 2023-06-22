@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Pink Champagne 的博客</title>
+  <icon>http://pinkchampagne17.github.io/blog/icon.png</icon>
+  
+  <link href="http://pinkchampagne17.github.io/blog/atom.xml" rel="self"/>
+  
+  <link href="http://pinkchampagne17.github.io/blog/"/>
+  <updated>2023-04-22T07:22:00.000Z</updated>
+  <id>http://pinkchampagne17.github.io/blog/</id>
+  
+  <author>
+    <name>PinkChampagne17</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的 2022 年总结</title>
+    <link href="http://pinkchampagne17.github.io/blog/2023/04/22/2022%E5%B9%B4%E6%80%BB%E7%BB%93/"/>
+    <id>http://pinkchampagne17.github.io/blog/2023/04/22/2022%E5%B9%B4%E6%80%BB%E7%BB%93/</id>
+    <published>2023-04-22T07:22:00.000Z</published>
+    <updated>2023-04-22T07:22:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;回顾自己的 2022 年。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用 WSL2 开发环境的体验</title>
+    <link href="http://pinkchampagne17.github.io/blog/2022/05/07/%E4%BD%BF%E7%94%A8WSL%E4%BD%9C%E4%B8%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E4%BD%93%E9%AA%8C/"/>
+    <id>http://pinkchampagne17.github.io/blog/2022/05/07/%E4%BD%BF%E7%94%A8WSL%E4%BD%9C%E4%B8%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E4%BD%93%E9%AA%8C/</id>
+    <published>2022-05-06T23:04:00.000Z</published>
+    <updated>2022-12-03T16:33:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;使用 WSL2 作为实际项目中的开发环境有一段时间了，讲述一下我体验到的一些 WSL2 的优缺点。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Windows" scheme="http://pinkchampagne17.github.io/blog/tags/Windows/"/>
+    
+    <category term="WSL" scheme="http://pinkchampagne17.github.io/blog/tags/WSL/"/>
+    
+    <category term="Linux" scheme="http://pinkchampagne17.github.io/blog/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows 开发工具</title>
+    <link href="http://pinkchampagne17.github.io/blog/2022/04/30/Windows%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%AE%8C%E5%96%84/"/>
+    <id>http://pinkchampagne17.github.io/blog/2022/04/30/Windows%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%AE%8C%E5%96%84/</id>
+    <published>2022-04-30T12:01:00.000Z</published>
+    <updated>2023-04-22T06:54:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;完善 Windows 开发环境。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="编程" scheme="http://pinkchampagne17.github.io/blog/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Windows" scheme="http://pinkchampagne17.github.io/blog/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML 表格边框交叉点冲突解决方案</title>
+    <link href="http://pinkchampagne17.github.io/blog/2022/04/16/HTML%E8%A1%A8%E6%A0%BC%E8%BE%B9%E6%A1%86%E4%BA%A4%E5%8F%89%E7%82%B9%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>http://pinkchampagne17.github.io/blog/2022/04/16/HTML%E8%A1%A8%E6%A0%BC%E8%BE%B9%E6%A1%86%E4%BA%A4%E5%8F%89%E7%82%B9%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
+    <published>2022-04-15T18:46:00.000Z</published>
+    <updated>2022-04-15T18:46:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;前段时间有这么个需求，需要把表格修改成下面这个样式：&lt;/p&gt;
+&lt;style&gt;
+.example-html th {
+  text-align: center;
+  padding: 0px 10px;
+}
+
+.example-html th {
+  text-align: center;
+  padding: 0px 10px;
+}
+
+.example-html table {
+  border: 1px skyblue solid;
+}
+
+.example-html.example-desc-expected thead th {
+  border-bottom: 10px skyblue solid;
+}
+
+.example-html tr td:first-child {
+  border-right: 10px palevioletred solid
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;example-html example-desc-expected&quot;&gt;
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;姓名&lt;/th&gt;
+        &lt;th&gt;介绍&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;田所浩二&lt;/td&gt;
+        &lt;td&gt;24岁，是学生&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;蔡徐坤&lt;/td&gt;
+        &lt;td&gt;喜欢唱、跳、rap、篮球&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;</summary>
+    
+    
+    
+    <category term="编程" scheme="http://pinkchampagne17.github.io/blog/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="HTML" scheme="http://pinkchampagne17.github.io/blog/tags/HTML/"/>
+    
+    <category term="CSS" scheme="http://pinkchampagne17.github.io/blog/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 WSL2 作为开发环境的配置记录</title>
+    <link href="http://pinkchampagne17.github.io/blog/2022/04/09/%E4%BD%BF%E7%94%A8WSL2%E4%BD%9C%E4%B8%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/"/>
+    <id>http://pinkchampagne17.github.io/blog/2022/04/09/%E4%BD%BF%E7%94%A8WSL2%E4%BD%9C%E4%B8%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</id>
+    <published>2022-04-08T22:49:00.000Z</published>
+    <updated>2023-04-22T07:16:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;使用 WSL2 作为开发环境并不是一帆风顺的，还是需要做一些特别的配置。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Windows" scheme="http://pinkchampagne17.github.io/blog/tags/Windows/"/>
+    
+    <category term="WSL" scheme="http://pinkchampagne17.github.io/blog/tags/WSL/"/>
+    
+    <category term="Linux" scheme="http://pinkchampagne17.github.io/blog/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记录一次使用 VS Code 的 Prettier 插件不起作用的情况</title>
+    <link href="http://pinkchampagne17.github.io/blog/2022/01/01/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8VSCode%E7%9A%84Prettier%E6%8F%92%E4%BB%B6%E4%B8%8D%E8%B5%B7%E4%BD%9C%E7%94%A8%E7%9A%84%E6%83%85%E5%86%B5/"/>
+    <id>http://pinkchampagne17.github.io/blog/2022/01/01/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8VSCode%E7%9A%84Prettier%E6%8F%92%E4%BB%B6%E4%B8%8D%E8%B5%B7%E4%BD%9C%E7%94%A8%E7%9A%84%E6%83%85%E5%86%B5/</id>
+    <published>2022-01-01T12:18:00.000Z</published>
+    <updated>2022-01-01T12:18:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天新建了一个新的项目，但在 VS Code 中使用 Prettier 对代码进行格式化时却没有任何反应。于是我打开了旧项目，打乱了一些代码，但此时的 Prettier 却是可以正常工作的。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="VS Code" scheme="http://pinkchampagne17.github.io/blog/tags/VS-Code/"/>
+    
+    <category term="Prettier" scheme="http://pinkchampagne17.github.io/blog/tags/Prettier/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何关闭 Cloudflare 的 Access policy (How to disable the Access policy of Cloudflare)</title>
+    <link href="http://pinkchampagne17.github.io/blog/2021/11/03/%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADCloudflare%E7%9A%84Access-policy/"/>
+    <id>http://pinkchampagne17.github.io/blog/2021/11/03/%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADCloudflare%E7%9A%84Access-policy/</id>
+    <published>2021-11-03T14:24:24.000Z</published>
+    <updated>2021-11-03T14:24:24.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文讲述如何在不绑定信用卡的情况下关闭 Cloudflare 的 Access policy。&lt;/p&gt;
+&lt;p&gt;This post describes that how to disable the Access policy of Cloudflare without credit card.&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Cloudflare" scheme="http://pinkchampagne17.github.io/blog/tags/Cloudflare/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>探究在 JavaScript 中，Math.max() 和 Math.min() 在不填入参数的情况下为什么返回 -INFINITY 与 INFINITY</title>
+    <link href="http://pinkchampagne17.github.io/blog/2021/09/29/%E5%9C%A8JavaScript%E4%B8%AD%EF%BC%8CMath.max()%E5%92%8CMath.min()%E5%9C%A8%E4%B8%8D%E5%A1%AB%E5%85%A5%E5%8F%82%E6%95%B0%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%94%E5%9B%9E-INFINITY%E4%B8%8EINFINITY/"/>
+    <id>http://pinkchampagne17.github.io/blog/2021/09/29/%E5%9C%A8JavaScript%E4%B8%AD%EF%BC%8CMath.max()%E5%92%8CMath.min()%E5%9C%A8%E4%B8%8D%E5%A1%AB%E5%85%A5%E5%8F%82%E6%95%B0%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%94%E5%9B%9E-INFINITY%E4%B8%8EINFINITY/</id>
+    <published>2021-09-29T02:43:00.000Z</published>
+    <updated>2021-09-29T02:43:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在一张被广为流传的 JavaScript Meme（梗图）中，我们可以看到这么一个例子，&lt;code&gt;Math.max()&lt;/code&gt; 在不填入的参数的情况下返回了 &lt;code&gt;-INFINITY&lt;/code&gt;，&lt;code&gt;Math.min()&lt;/code&gt; 在同样的情况下返回了 &lt;code&gt;INFINITY&lt;/code&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="编程" scheme="http://pinkchampagne17.github.io/blog/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="JavaScript" scheme="http://pinkchampagne17.github.io/blog/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue3.0 在 JSX/TSX 下使用插槽(slot)</title>
+    <link href="http://pinkchampagne17.github.io/blog/2020/12/03/Vue3.0%E5%9C%A8JSX%E4%B8%8B%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%8F%92%E6%A7%BD(slot)/"/>
+    <id>http://pinkchampagne17.github.io/blog/2020/12/03/Vue3.0%E5%9C%A8JSX%E4%B8%8B%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%8F%92%E6%A7%BD(slot)/</id>
+    <published>2020-12-03T15:51:00.000Z</published>
+    <updated>2021-07-24T06:47:57.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在文档上没找到，使用搜索引擎也没见有人发表相关内容。最后在 &lt;a href=&quot;https://github.com/vuejs/jsx-next&quot;&gt;vuejs&amp;#x2F;jsx-next&lt;/a&gt; 这个 repo 的 README.md 找到了解决方案，在这里分享给各位。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="编程" scheme="http://pinkchampagne17.github.io/blog/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Vue" scheme="http://pinkchampagne17.github.io/blog/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一个使用 PHP 实现，功能简单的学生信息管理系统</title>
+    <link href="http://pinkchampagne17.github.io/blog/2020/08/20/%E4%B8%80%E4%B8%AA%E4%BD%BF%E7%94%A8PHP%E5%AE%9E%E7%8E%B0%EF%BC%8C%E5%8A%9F%E8%83%BD%E7%AE%80%E5%8D%95%E7%9A%84%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://pinkchampagne17.github.io/blog/2020/08/20/%E4%B8%80%E4%B8%AA%E4%BD%BF%E7%94%A8PHP%E5%AE%9E%E7%8E%B0%EF%BC%8C%E5%8A%9F%E8%83%BD%E7%AE%80%E5%8D%95%E7%9A%84%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</id>
+    <published>2020-08-20T09:43:00.000Z</published>
+    <updated>2020-08-20T09:43:00.000Z</updated>
+    
+    
+    <summary type="html">刚好够应付课堂作业用</summary>
+    
+    
+    
+    <category term="我的项目" scheme="http://pinkchampagne17.github.io/blog/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="PHP" scheme="http://pinkchampagne17.github.io/blog/tags/PHP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Go语言的环境配置与Hello world</title>
+    <link href="http://pinkchampagne17.github.io/blog/2020/07/19/Go%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8EHello%20world/"/>
+    <id>http://pinkchampagne17.github.io/blog/2020/07/19/Go%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8EHello%20world/</id>
+    <published>2020-07-19T05:57:00.000Z</published>
+    <updated>2023-04-22T07:15:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这只是一个简单的示例，个别细节没做太多解释，可去官网或其他网站自行了解。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="编程" scheme="http://pinkchampagne17.github.io/blog/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Go" scheme="http://pinkchampagne17.github.io/blog/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>真步笔记，一个简单的公主连结Re:Dive计轴器。</title>
+    <link href="http://pinkchampagne17.github.io/blog/2020/07/14/%E7%9C%9F%E6%AD%A5%E7%AC%94%E8%AE%B0%EF%BC%8C%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E5%85%AC%E4%B8%BB%E8%BF%9E%E7%BB%93ReDive%E8%AE%A1%E8%BD%B4%E5%99%A8/"/>
+    <id>http://pinkchampagne17.github.io/blog/2020/07/14/%E7%9C%9F%E6%AD%A5%E7%AC%94%E8%AE%B0%EF%BC%8C%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E5%85%AC%E4%B8%BB%E8%BF%9E%E7%BB%93ReDive%E8%AE%A1%E8%BD%B4%E5%99%A8/</id>
+    <published>2020-07-14T03:43:00.000Z</published>
+    <updated>2020-07-14T03:43:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/PinkChampagne17/MahoNotes?style=social&quot;&gt; &lt;img src=&quot;https://img.shields.io/github/license/PinkChampagne17/MahoNotes?style=flat-square&quot;&gt;&lt;/p&gt;
+&lt;p&gt;因为&lt;del&gt;懒得做&lt;/del&gt;时间关系，暂时只支持&lt;code&gt;国服&lt;/code&gt;已经实装的角色，可添加的技能只包括 UB 与破甲、加攻技能（也够用了）。&lt;/p&gt;
+&lt;p&gt;未来也许会添加台服，甚至日服已经实装的角色。或者是永远也不会添加。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;版本&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;正在运行的实例&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;Cloudflare Pages&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://mahonotes.pages.dev/&quot;&gt;https://mahonotes.pages.dev/&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;国内网络访问更快&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;GitHub Pages&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;a href=&quot;https://pinkchampagne17.github.io/MahoNotes/&quot;&gt;https://pinkchampagne17.github.io/MahoNotes/&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</summary>
+    
+    
+    
+    <category term="我的项目" scheme="http://pinkchampagne17.github.io/blog/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在 Hexo 中使用 Material 主题</title>
+    <link href="http://pinkchampagne17.github.io/blog/2020/07/12/%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8Material%E4%B8%BB%E9%A2%98/"/>
+    <id>http://pinkchampagne17.github.io/blog/2020/07/12/%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8Material%E4%B8%BB%E9%A2%98/</id>
+    <published>2020-07-11T16:40:00.000Z</published>
+    <updated>2020-07-11T16:40:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本次使用主题的 GitHub Repo: &lt;a href=&quot;https://github.com/bollnh/hexo-theme-material&quot;&gt;bollnh&amp;#x2F;hexo-theme-material&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Hexo" scheme="http://pinkchampagne17.github.io/blog/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PHP 使用 MySQLi 对数据库进行 insert 操作时报错 Data truncated for column &#39;xxx&#39; at row 1</title>
+    <link href="http://pinkchampagne17.github.io/blog/2020/07/11/PHP%E4%BD%BF%E7%94%A8MySQLi%E5%AF%B9%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9B%E8%A1%8Cinsert%E6%93%8D%E4%BD%9C%E6%97%B6%E6%8A%A5%E9%94%99Data%20truncated%20for%20column%20&#39;xxx&#39;%20at%20row%201/"/>
+    <id>http://pinkchampagne17.github.io/blog/2020/07/11/PHP%E4%BD%BF%E7%94%A8MySQLi%E5%AF%B9%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9B%E8%A1%8Cinsert%E6%93%8D%E4%BD%9C%E6%97%B6%E6%8A%A5%E9%94%99Data%20truncated%20for%20column%20&#39;xxx&#39;%20at%20row%201/</id>
+    <published>2020-07-11T12:29:00.000Z</published>
+    <updated>2020-07-11T12:29:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;PHP在 MySQLi 使用 SQL 语句&lt;code&gt;INSET INTO student (sid, name, age, sex, uid) values (123, &amp;#39;123&amp;#39;, &amp;#39;123&amp;#39;, &amp;#39;男&amp;#39;, 1)&lt;/code&gt;对数据库进行操作时出现了”Data truncated for column ‘xxx’ at row 1”的错误信息。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="PHP" scheme="http://pinkchampagne17.github.io/blog/tags/PHP/"/>
+    
+  </entry>
+  
+</feed>
